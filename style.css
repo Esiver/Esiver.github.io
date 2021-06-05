@@ -1,10 +1,10 @@
 :root {
     --gutter: 20px;
-    --main-color-bg: #000000;
-    --main-color: #160f0f;
-    --main-color-text: #a30000;
-    --sec-color-text: #f5eded;
-
+    --main-color-bg: #dbd8e3;
+    --main-color: #5c5470;
+    --main-color-text: #352f44;
+    --sec-color-text: #2a2438;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 * {

@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.documentElement.style.setProperty('--sec-color-text', 'rgb(218, 218, 218)');
                 break;
             case 'light':
-                document.documentElement.style.setProperty('--main-color', '#dbd8e3');
-                document.documentElement.style.setProperty('--main-color-bg', '#5c5470');
-                document.documentElement.style.setProperty('--main-color-text', '#352f44');
-                document.documentElement.style.setProperty('--sec-color-text', '#2a2438');
+                document.documentElement.style.setProperty('--main-color', '#faf3f3');
+                document.documentElement.style.setProperty('--main-color-bg', '#e1e5ea');
+                document.documentElement.style.setProperty('--main-color-text', '#a7bbc7');
+                document.documentElement.style.setProperty('--sec-color-text', 'da7f8f');
                 break;
 
 
