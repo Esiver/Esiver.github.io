@@ -33,7 +33,7 @@ h1,h2,h3 {
 }
 
 .header-menu {
-    
+    min-height: 15rem;
     background-color: var(--main-color);
     padding: var(--gutter);
     font-size: 150%;
@@ -68,13 +68,16 @@ h1,h2,h3 {
 }
 
 .sidebar {
-    position: fixed;
+    position: absolute;
     right: 0;
-    top: 30%;
+    top: calc(30% + 15rem );
     width: 20rem;
 
     background: var(--main-color-bg);
     background: linear-gradient(90deg, var(--main-color-bg) 0%, var(--main-color) 100%); 
+}
+.sidebar-slider {
+    position: fixed;
 }
 
 .sidebar--category {

@@ -2,6 +2,7 @@ var colorLight = '--main-color-light';
 
 document.addEventListener('DOMContentLoaded', function() {
 
+
     var darkButton = document.getElementById('darkBtn')
     var lightButton = document.getElementById('lightBtn')
     var customButton = document.getElementById('customBtn')
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         switch (colorTheme) {
             case 'dark':
                 document.documentElement.style.setProperty('--main-color', '#000000');
-                document.documentElement.style.setProperty('--main-color-bg', '#3e3636');
+                document.documentElement.style.setProperty('--main-color-bg', '#211a1a');
                 document.documentElement.style.setProperty('--main-color-text', '#d72323');
                 document.documentElement.style.setProperty('--sec-color-text', '#f5eded');
                 break;
@@ -35,6 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
     }
-
+    colorChange('custom');
 });
 
