@@ -1,8 +1,6 @@
 var colorLight = '--main-color-light';
 
 document.addEventListener('DOMContentLoaded', function() {
-
-
     var darkButton = document.getElementById('darkBtn')
     var lightButton = document.getElementById('lightBtn')
     var customButton = document.getElementById('customBtn')
@@ -16,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'dark':
                 document.documentElement.style.setProperty('--main-color', '#000000');
                 document.documentElement.style.setProperty('--main-color-bg', '#211a1a');
-                document.documentElement.style.setProperty('--main-color-text', '#d72323');
+                document.documentElement.style.setProperty('--main-color-text', '#a70000');
                 document.documentElement.style.setProperty('--sec-color-text', '#f5eded');
                 break;
             case 'custom':
@@ -31,10 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.documentElement.style.setProperty('--main-color-text', '#a7bbc7');
                 document.documentElement.style.setProperty('--sec-color-text', 'da7f8f');
                 break;
-
-
         }
-        
     }
     colorChange('custom');
 });
