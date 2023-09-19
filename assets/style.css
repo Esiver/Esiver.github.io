@@ -40,6 +40,13 @@ a {
   border-radius: 6px;
 }
 
+.settings-bar {
+  position: fixed;
+  left: 5px;
+  top: 10%;
+  color: white;
+}
+
 .button {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
