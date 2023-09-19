@@ -1,0 +1,21 @@
+.button {
+    @include borders(6px,6px,6px,6px);
+
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    background-color: $color--button;
+    color: $color--button-text;
+    display: inline;
+    width: fit-content;
+
+    &--large {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    &:hover {
+        transition: 200ms ease-in-out;
+        background-color: darken($color--button, 15%);
+    }
+}

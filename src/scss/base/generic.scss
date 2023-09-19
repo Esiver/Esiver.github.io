@@ -1,0 +1,34 @@
+.page-width {
+    max-width: 90vw;
+    margin: auto;
+}
+
+.flex-centering {
+    
+    &--h {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &--v {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.background {
+    background-color: $color--background;
+}
+.foreground {
+    background-color: $color--foreground;
+}
+.borders {
+    border-radius: 6px;
+}   
+
+
+img {
+
+}
+

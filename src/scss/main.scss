@@ -1,0 +1,36 @@
+
+//base
+@import "base/variables";
+@import "base/font.scss";
+@import "base/generic.scss";
+@import "mixins.scss";
+// components
+
+@import "components/button.scss";
+@import "components/header";
+@import "components/section.scss";
+@import "components/aside.scss";
+@import "components/card.scss";
+@import "components/list.scss";
+@import "components/tag.scss";
+@import "components/slider.scss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @extend .background;
+    @extend .flex-centering--h;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    @extend .flex-centering--v;
+    gap: 2rem;
+    height: 100%;
+}

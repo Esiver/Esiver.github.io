@@ -1,0 +1,20 @@
+aside {
+    width: 25%;
+    // position:sticky;
+    top: 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    > h1 {
+        color: white;
+    }
+}
+
+.aside {
+    
+    &__item {
+        @extend .borders;
+        @extend .card;
+        background-color: white;
+    }
+}

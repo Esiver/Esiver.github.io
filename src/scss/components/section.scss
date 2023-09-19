@@ -1,0 +1,47 @@
+section {
+    @extend .borders;
+    margin: 0 0 2rem 0;
+    p {
+        max-width: 80%;
+    }    
+    .foreground {
+        @extend .foreground;
+    }
+}
+
+.section-padding {
+    padding: 1rem;
+
+}
+
+
+.section {
+    &__container {
+        
+        width: 75%;
+    }
+    &__list {
+        padding: 0;
+        margin: 0 0 2rem 0;
+        list-style-type: none;
+        > li {
+            border-left: 2px solid $color--background;
+            padding-left: 1rem;
+        }
+        > li + li {
+            margin-top: 3rem;
+
+        }
+    }
+    &__header {
+        @extend .section-padding;
+        @include borders(6px, 6px, 0, 0);
+
+        background-color: $color--decorator-1;
+        color: $color--foreground;
+    }
+    &__body {
+        @extend .section-padding;
+
+    }
+}

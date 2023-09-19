@@ -1,0 +1,46 @@
+
+
+.tag {
+
+    $self:&;
+
+    &__list{
+
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        column-gap: 7px;
+        row-gap: 6px;
+        margin: 1rem 0;
+        flex-wrap: wrap;
+
+        > li {
+            background-color: $color--tag;
+            color: $color--tag-font;
+
+            
+        }
+    }
+
+    
+
+    &__item{
+        $self: &;
+        @extend .borders;
+
+        margin: 0;
+        
+        padding: 8px 12px;
+        display: flex;
+
+        &--alt {
+            background-color: lighten($color--tag, 10%);
+
+        }
+
+        & + #{$self} {
+            // margin-left: 1rem;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "esiver.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esiver/Esiver.github.io.git"
+  },
+  "keywords": [
+    "'"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esiver/Esiver.github.io/issues"
+  },
+  "homepage": "https://github.com/Esiver/Esiver.github.io#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "scss": "^0.2.4"
+  }
+}

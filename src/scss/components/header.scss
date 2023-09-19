@@ -1,0 +1,25 @@
+header {
+    @extend .foreground;
+    @extend .card;
+
+    width: 100%;
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    img {
+        @extend .borders;
+
+        width: 25%;
+        object-fit: cover;
+        // aspect-ratio: 4 / 3 ;
+    }
+    .info {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
