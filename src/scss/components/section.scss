@@ -1,11 +1,16 @@
 section {
     @extend .borders;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     p {
         max-width: 80%;
     }    
     .foreground {
         @extend .foreground;
+    }
+
+    @media screen and (min-width:$mq-laptop){
+            
+        margin: 0 0 2rem 0;
     }
 }
 
@@ -17,9 +22,13 @@ section {
 
 .section {
     &__container {
-        
         width: 65%;
+
+        @media screen and (max-width:$mq-mobile) {
+            width: auto;
+        }
     }
+
     &__list {
         padding: 0;
         margin: 0 0 2rem 0;

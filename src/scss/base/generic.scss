@@ -1,6 +1,13 @@
 .page-width {
-    max-width: 90vw;
+    max-width: 97.5vw;
     margin: auto;
+
+    @media screen and (min-width:$mq-tablet){
+        max-width: 95vw;
+    }
+    @media screen and (min-width:$mq-laptop){
+        max-width: 90vw;
+    }
 }
 
 .flex-centering {

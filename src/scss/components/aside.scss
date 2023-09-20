@@ -1,5 +1,5 @@
 aside {
-    width: 35%;
+    width: auto;
     // position:sticky;
     top: 2rem;
     gap: 1rem;
@@ -7,6 +7,11 @@ aside {
     flex-direction: column;
     > h1 {
         color: white;
+    }
+
+    @media screen and (min-width:$mq-mobile) {
+        width: 35%;
+
     }
 }
 

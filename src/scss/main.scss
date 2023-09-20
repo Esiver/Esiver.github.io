@@ -31,7 +31,14 @@ body {
 }
 
 main {
-    @extend .flex-centering--v;
-    gap: 2rem;
+    // @extend .flex-centering--v;
     height: 100%;
+    flex-direction: column;
+
+    @media screen and (min-width:$mq-mobile) {
+        gap: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 }
